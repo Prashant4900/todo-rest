@@ -9,6 +9,7 @@ Simple Django app to manage todo list.
 
 ## Installation
     
-    ```bash
-    pip install -r requirements.txt
-    ```
+    git clone https://github.com/Prashant4900/todo-rest
+    cd todo-rest
+    python3 manage.py migrate
+    python3 manage.py runserver
